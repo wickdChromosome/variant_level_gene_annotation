@@ -21,5 +21,7 @@ echo "Writing final file"
 echo ${filehead} | sed 's/ /\t/g' > ${outname}
 cat ${outname}.temp | cut -f-9,13 >> ${outname}
 
-#rm ${outname}.temp
+rm ${outname}_nohead.temp
+rm ${outname}_addedpos.temp
+rm ${outname}.temp
 
