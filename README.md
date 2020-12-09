@@ -10,5 +10,5 @@ This is just a quick script that adds gene annotation using the hg38 gencode gen
 ### Example usage
 
 ```
-bash annotate.sh phaser_varlevel_annotation_testfile.txt GENCODE_gencode.v26.GRCh38.genes.bed out.txt 
+bash annotate.sh chr1.allelic_counts.txt GENCODE_gencode.v26.GRCh38.genes.bed out.txt 
 ```
