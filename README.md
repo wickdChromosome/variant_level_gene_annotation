@@ -2,8 +2,8 @@
 
 This is just a quick script that adds gene annotation using the hg38 gencode gene annotation file. A few notes:
 
-	- Variants overlapping more than one annotation will have multiple lines in the output file, and the missing value notation when there's no annotation is "." (at least I think these are true).
-
+	- Variants overlapping more than one annotation will have multiple lines in the output file 
+	- the missing value notation when there's no annotation is "."
 	- This script was tested with the current hg38 annotation file from gencode(included in this repo).
 
 
