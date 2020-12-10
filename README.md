@@ -1,6 +1,6 @@
 # Phaser variant level gene annotation
 
-This is just a quick script that adds gene annotation using the hg38 gencode gene annotation file. A few notes:
+This is just a quick script that adds gene annotation using the hg38 gencode gene annotation file included in this repo(from https://www.gencodegenes.org/human/). A few notes:
 
 	- Variants overlapping more than one annotation will have multiple lines in the output file 
 	- the missing value notation when there's no annotation is "."
